@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <!--https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=FontName">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/logo.jpg">
+  <title>Nelson E - Portfolio</title>
+</head>
+<body>
+  <header>
+    <h2 class="logo">Nelson <span>E.</span></h2>
+    
+    <span onclick="openNav()" id="bars">☰ </span>
+  
+    
+    <div class="navbar" id="mySidenav">
+      
+      <span class="closebtn" id="closebtn"onclick="closeNav()">&times;</span>
+      
+      
+      
+     
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about" onclick="removeSideNav()">About</a></li>
+        <li><a href="#services" onclick="removeSideNav()">Services</a></li>
+        <li><a href="#contact" onclick="removeSideNav()">Contact</a></li>
+        
+         <label class="switch">
+            <input type="checkbox" id="lightModeToggle">
+            <span class="slider"></span>
+          </label>
+       </ul>
+     
+     
+    
+    </div>
+  </header>
+  
+  
+  <section class="home" slide-in>
+    <h2>Hi There!</h2>
+    
+    <h1>Let Us Build Facinating Websites for You</h1>
+    
+    <div class="home-icons">
+      <a href="https://facebook.com/p/Nelson-Ekoh-100093547650137/"><i class="fab fa-facebook"></i></a>
+      <a href="https://x.com/Nelkeys001/"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://instagram.com/nelkeys01/"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com/in/nelson-ekoh-05561a264"><i class="fab fa-linkedin"></i></a>
+    </div>
+    
+    <div class="contact">
+      <a href="https://github.com/Nelkeys/"><i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
+
+      <a href="https://wa.me/+2348145280900/"><i class="fab fa-whatsapp" id="homeContact"></i>&nbsp;&nbsp;Contact</a>
+    </div>
+  </section>
+  
+  
+  <section class="about" id="about">
+    <img src="assets/image.jpg"alt="img" class="slide-in-left">
+    
+    
+    <div class="about-content slide-in-left">
+      <h1 class="slide-in-left">About <span>Me</span></h1>
+      
+      
+      <p class="note slide-in-left">I'm Ekoh Nelson Joseph, a Computer Science student with a passion for web development. My coding journey began after completing my secondary school education at Command Day Secondary School. <p>
+        I thrive on crafting exceptional web experiences, turning designs into code, and solving digital puzzles. I'm dedicated to delivering standout web solutions that captivate and engage users.
+      </p><p>
+        Beyond coding, I'm a musician who loves to sing and plays the keyboard and guitar. Music is my creative outlet, allowing me to connect with emotions beyond the screen.
+      </p>
+      <p>
+        I'm on a mission to innovate in both tech and music, creating experiences that inspire. Let's connect! Find me on <a href="https://linkedin.com/in/nelson-ekoh-05561a264/">LinkedIn</a> and <a href="https://github.com/Nelkeys/">GitHub</a>, or drop me an email at <a href="mailto:nelsonekoh212@gmail.com">nelsonekoh212@gmail.com.</a> Thanks for visiting my portfolio. Let's embark on creative journeys together!
+      </p>
+      </p>
+      
+      
+      
+      
+      <div class="about-buttons">
+        <a href="javascript:void(0)" class="active" onclick="displayWork()" id="workButton">Work</a>
+        <a href="javascript:void(0)" id="educationButton"class="education" onclick="displayEducation()">Education</a>
+      </div>
+      
+      <ul id="work">
+        <li class="topic slide-in-left">WEB DEVELOPMENT</li>
+        <li class="first slide-in-left">HTML, CSS and JavaScript</li>
+        <li class="topic slide-in-left">MOBILE DEVELOPMENT</li>
+        <li class="first">Flutter</li>
+        <li class="slide-in-left">Kotlin</li>
+        <li class="slide-in-left">Java</li>
+        <li class="topic slide-in-left">PROGRAMMING</li>
+        <li class="first slide-in-left">Python</li>
+        <li class="slide-in-left">JavaScript</li>
+        <li class="slide-in-left">Java</li>
+      </ul>
+      
+      
+      <ul id="education" >
+        <li class="topic">PRIMARY EDUCATION</li>
+        <li class="first">Command Children School, Yola.</li>
+        
+        <li class="topic">SECONDARY EDUCATION</li>
+        <li class="first">Command Day Secondary School, Ikeja.</li>
+        
+        <li class="topic">TERTIARY EDUCATION</li>
+        <li class="first">Akwa-Ibom State University (AKSU).</li>
+      </ul>
+    </div>
+  </section>
+  
+  
+  
+  <section class="my-services slide-in-left" id="services">
+    <h1 class="slide-in-left">My <span>Services</span></h1>
+    <div class="boxes">
+      <div class="slide-in">
+        <i class="fas fa-code"></i>
+        <h2 class="skill">Web Development</h2>
+        <p>I excel in the art of web development, crafting dynamic and visually appealing websites. From frontend design to backend functionality, I bring digital concepts to life through coding and design principles.</p>
+        <a href="javascript:void(0)">Learn more..</a>
+      </div>
+      
+      <div class="slide-in-left">
+        <i class="fab fa-android"></i>
+        <h2 class="skill">Andriod Development</h2>
+        <p>Android app development is one of my core competencies. I specialize in creating mobile applications for the Android platform, ensuring seamless user experiences and robust functionality.</p>
+        <a href="javascript:void(0)">Learn more..</a>
+      </div>
+      
+      
+      <div class="slide-in">
+        <i class="fas fa-microchip"></i>
+        <h2 class="skill">Machine Learning</h2>
+        <p>Machine learning is my domain of expertise. I leverage data-driven insights to build predictive models and solve complex problems. My focus spans natural language processing, computer vision, and the application of AI to enhance decision-making processes.</p>
+        <a href="javascript:void(0)">Learn more..</a>
+      </div>
+    </boxes>
+  </section>
+  
+  
+  <section class="contact-me slide-in-left" id="contact">
+      <div class="contact-left">
+
+        <div class="contact-me-head">
+          <h1>Contact <span>Me</span></h1>
+        </div>
+
+        <div class="links">
+        <a href="mailto:nelsonekoh212@gmail.com"><i class="fas fa-envelope"></i>&nbsp;&nbsp;nelsonekoh212@gmail.com</a>
+        <a href="tet:+2348145280900"><i class="fas fa-phone"></i>&nbsp;&nbsp;+2348145280900</a>
+        </div>
+        
+        <div class="contactMe-icons slide-in-left">
+          <a href="https://facebook.com/p/Nelson-Ekoh-100093547650137/"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/Nelkeys/"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/nelkeys01/"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/in/nelson-ekoh-05561a264/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        
+        <a href="javascript:void(0)" class="downloadCv slide-in-left">Download CV</a>
+      </div>
+
+      <form id="contact-form" class="slide-in-left" action="https://formspree.io/f/meqbpkep" method="POST">
+        <input type="text" class="name" name="name" id="name" placeholder="Your Name">
+        <input type="text" class="email" name="email" id="email" placeholder="Your Email" required>
+        <textarea name="message" id="message" cols="70" rows="10" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    
+
+
+  </section>
+  
+  
+  
+  <footer>
+    <p>&copy;Copyright <a href="javascript:void(0)">Nelson E </a>2023.</p>
+  </footer>
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="javascript/script.js"></script>
+</body>
+</html>
